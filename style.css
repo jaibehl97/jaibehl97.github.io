@@ -1,0 +1,201 @@
+#click {
+  cursor: pointer;
+}
+.logo {
+  width: 200px;
+}
+.sample {
+  display: none;
+}
+.sample#camus {
+  display: block;
+    padding: 90px 0;
+     }
+  .sample#camus .text {
+    margin:  auto;
+    background: #6A2C3E; 
+    padding: 0px 0px;
+/*    width: 250px; */
+    
+}
+  .sample#camus h1 {
+    color: #CF4520;
+    font: 700 48px/40px 'pt sans narrow';
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+}
+  .sample#camus hr {
+    background: #CF4520;
+    border: 0;
+    height: 3px;
+    margin: 12px auto 8px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .sample#camus hr.bottom {
+      margin: 10px auto; }
+  .sample#camus h2 {
+    color: white;
+    font: 700 20px/16px 'pt sans';
+    margin: 0;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;}
+  .sample#camus p {
+    color: white;
+    font: 400 15px/25px 'pt serif';
+    text-align: justify;
+      width: 300px;
+      margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  #content {
+    text-align: justify;
+  }
+
+
+
+
+.sample1#headline { 
+  padding: 0px 0; 
+
+}
+.sample1#headline .text {
+  margin: 30px auto;
+  padding: 0 20px; }
+.sample1#headline h1 {
+  color: #CF4520;
+  font: 800 58px/50px 'pt sans narrow'; }
+
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: auto;
+  display: block;
+  
+  
+  
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  transform: scale(1)
+}
+
+.scroll-down:before {
+    position: relative;
+    top: 50;
+    left: 50%;
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+
+
+/*
+.sample#thin {
+  background: #0ac5f4;
+  padding: 200px 0; }
+  .sample#thin .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left; }
+  .sample#thin li {
+    list-style: none;
+    color: #fff;
+    font: 100 10.5vw/1 'lato';
+    text-transform: uppercase; }
+    .sample#thin li .kern {
+      margin: 0 0 0 6px; }
+    .sample#thin li:nth-child(1) {
+      opacity: 0.3; }
+    .sample#thin li:nth-child(2) {
+      opacity: 0.4; }
+    .sample#thin li:nth-child(3) {
+      opacity: 0.5; }
+    .sample#thin li:nth-child(4) {
+      opacity: 0.6; }
+    .sample#thin li:nth-child(5) {
+      opacity: 0.7; }
+    .sample#thin li:nth-child(6) {
+      opacity: 0.8; }
+.sample#slogan {
+  background: #c00;
+  padding: 325px 0;
+  text-align: center; }
+  .sample#slogan .text {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 700px; }
+  .sample#slogan h1 {
+    border-bottom: 6px solid #090909;
+    color: #090909;
+    display: inline-block;
+    font: 400 76px/64px 'Gravitas One';
+    letter-spacing: -4px;
+    margin: 0 0 20px 0;
+    padding: 0 4px;
+    text-transform: uppercase; }
+*/
+body {
+  font-family: 'Mandali', sans-serif;
+  background-color: #6A2C3E;
+  margin: 15px;
+}
+/*
+h1 {
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+*/
+a
+{
+  text-decoration:none;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
